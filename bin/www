@@ -11,7 +11,7 @@ var http = require('http');
 const mongoose = require('mongoose');
 
 
-mongoose.connect('mongodb+srv://abhi20:abhi2004@cluster0.f3igmgl.mongodb.net/to_do_list_asssignment')
+mongoose.connect('')   <--   this is mongob=db atlas connection link  online link 
   .then(() => console.log('Connected!'));
 
 /**
